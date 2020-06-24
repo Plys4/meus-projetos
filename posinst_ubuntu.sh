@@ -3,7 +3,7 @@ sudo apt install zsh flatpak gnome-software-plugin-flatpak papirus-icon-theme -y
 wget -qO- https://git.io/papirus-folders-install | sh
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 #flatpak install flathub com.axosoft.GitKraken -y
-
+papirus-folders -C teal --theme Papirus-Dark
 sudo dpkg --add-architecture i386 
 wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' 
